@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-str = "Python is an interpreted, interactive, object-oriented programming\
- language that combines remarkable power with very clear syntax"
-str = str[39:66] + str[106:112] + str[:6]
-print(str)chmod u+x 8-concat_edges.py
+str1 = "Holberton"
+str2 = "School"
+str1 += ' ' + str2
+print(f"Welcome to {str1}!")
